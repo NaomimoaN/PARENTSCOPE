@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARENTSOPE</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/fa4105cae0.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="acl-page">
+            <div class="headerWrapper">
+                <div class="site-title"><a href="index.html" >PARENTSCOPE</a></div>
+                <!-- <h1>PARENTSCOPE</h1> -->
+                <div class="main-nav">
+                    <nav>
+                        <div id="hamburger-menu" tabindex="0" aria-label="Toggle menu" role="button"><i class="fa-solid fa-bars"></i></div>
+                        <ul id="menu">
+                            <li id="home"><a href="index.html">Home</a></li>
+                            <li id="article"><a href="article.html">Article</a></li>
+                            <li id="contact">Contact</li>
+                            <li id="sources"><a href="sources.html">Sources</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="parentingMagagin"><p>Parenting Magazine</p></div>
+                <form class="search" action="https://www.google.com/search" method="get" >
+                    <label for="search-text">Search</label>
+                    <!-- labelにicon入れる？必要？<i class="fa-solid fa-magnifying-glass"></i> -->
+                    <div class="search-box">
+                        <input type="text" id="search-text" name="q" placeholder="search" aria-label="Search field">
+                    </div>
+                </form>
+
+
+            </div>
+        
+    </header>
+
+    <div class="main-asideWrapper">
+        <main class="main-contact-page">
+            <div class="articleWrapper">
+                <div class="breadcram">
+                    <p><a href="index.html">home</a> -> contact</p>
+                </div>
+
+                <section>
+                    <h1>Give Us a Shout!</h1>
+
+                    <div class="intro">
+                        <p>Any questions we couldn’t answer in our FAQ section below? No problem. Send us a quick message and one of our agents will get back to you in 24 hours.</p>
+                    </div>
+
+                    <form action="https://formspree.io/f/mrbzpdzd" method="post">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" required>
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" required>
+
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject">
+
+                        <label for="comment">Message</label> 
+                        <textarea id="comment" name="comment" rows="4" required></textarea>
+                        
+                        <input type="submit" value="Send">
+
+                    </form>
+
+                    
+                </section>
+            
+            </div> <!--articleWrapper ends here-->
+
+        </main>
+
+        <aside class="company-aside">
+            <img src="img/office_tysson.webp" alt="office photo">
+            <h2>Company Info</h2>
+            <h3>Location</h3>
+            <p>100 W 49th Ave, Vancouver, BC V5Y 2Z6</p>
+            <h3>Phone Nummber</h3>
+            <p>(604) 323-5511</p>
+            <h3>E-mail address</h3>
+            <p>geninfo@langara.ca</p>
+        </aside>
+
+    </div>
+    <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.7128681973527!2d-123.11017652357049!3d49.22497227138422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486746f412563f7%3A0x36606d221509fdfe!2z44Op44Oz44Ks44Op5aSn5a2m!5e0!3m2!1sja!2sca!4v1722226121094!5m2!1sja!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>               
+
+
+    <footer>
+        <div class="footerWrapper">
+            <div class="footerContainer1">
+                <form action="https://formspree.io/f/mrbzpdzd" method="post">
+                    <input type="email" name="email" id="newsletter-email" placeholder="Your email address">
+                    <input type="submit" value="Subscribe">
+                    
+                </form>
+
+                <div class="footer-nav">
+                    <div class="footer-navOne">
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Subscription Option</a>
+                                <ul>
+                                    <li><a href="#">- Plan & Pricing</a></li>
+                                    <li><a href="#">- Membership Benefits</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Advertising information</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-navTow">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="article.html">Article</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="sources.html">Sources</a></li>
+                        </ul>
+                    </div>
+                </div><!-- footer-nav ends here -->
+            </div><!-- footerContainer1 ends here -->
+
+            <div class="footerContainer2">
+                <div class="footer-title">
+                    <h4>PARENTSCOPE</h4>
+                </div>
+
+                <div class="snippet">
+                    <p>Welcome to PARENTSCOPE, your go-to magazine for all things parenting! Whether you're navigating the early years, managing school-age challenges, or preparing for the teen years, we've got you covered. Dive into expert advice, heartwarming stories, and practical tips tailored to every stage of your child's development. Join our community of informed and engaged parents today and let PARENTSCOPE be your trusted guide on the incredible journey of raising happy, healthy, and confident kids.</p>
+                </div>
+
+                <div class="social-icons">
+                    <div class="facebook"><a href="https://www.facebook.com/" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a></div>
+                    <div class="twitter"><a href="https://x.com/i/flow/login" aria-label="Visit our Twitter page"><i class="fa-brands fa-x-twitter"></i></a></div>
+                    <div class="insta"><a href="https://www.instagram.com/" aria-label="Visit our Instagram page"><i class="fa-brands fa-instagram"></i></a></div>
+                </div>
+            </div> <!--footerContainer2 ends here-->  
+        </div>  <!--footerWrapper ends here-->
+        
+    </footer>
+    
+</body>
+</html>
